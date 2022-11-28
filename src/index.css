@@ -1,0 +1,69 @@
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 10px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.closebtn {
+  padding-left: 10px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #000;
+}
+.lh-0 {
+  line-height: 2;
+}
+
+.close-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.badge {
+  font-size: 0.9em;
+}
+.close-icon:hover {
+  cursor: pointer;
+  color: rgba(213, 211, 29, 0.8);
+}
+
+.list-group-horizontal > .list-group-item:first-child:not(:last-child) {
+  width: 50%;
+}
+.list-group-horizontal > .list-group-item:last-child:not(:first-child) {
+  width: 50%;
+}
+.btn-danger {
+  --bs-btn-color: #000;
+  --bs-btn-bg: rgba(213, 211, 29, 0.8);
+  --bs-btn-border-color: rgba(213, 211, 29, 0.8);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(115, 114, 11, 0.8);
+  --bs-btn-hover-border-color: rgba(115, 114, 11, 0.8);
+  --bs-btn-focus-shadow-rgb: 225, 83, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgba(71, 70, 2, 0.8);
+  --bs-btn-active-border-color: rgba(71, 70, 2, 0.8);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
+}
+
+.bg-secondary {
+  background-color: rgba(147, 147, 142, 1) !important;
+}
+
+.table {
+  --bs-table-bg: ghostwhite;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.099);
+}
